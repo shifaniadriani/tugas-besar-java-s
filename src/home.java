@@ -45,7 +45,7 @@ public class home
         //  Membuat Objek Button
         JButton button = new JButton("Login");
         button.addActionListener(new ActionListener() {
-        @Override
+            @Override
             public void actionPerformed(ActionEvent e) {
                 login butt = new login();
                 frame.dispose();
