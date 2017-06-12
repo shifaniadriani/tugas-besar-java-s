@@ -9,6 +9,10 @@ import java.sql.Date;
 
 import static java.lang.System.err;
 
+/**
+ * Created by FAN-PC on 5/25/2017.
+ */
+
 public class transaksi extends JFrame {
 
     Connection con;
@@ -35,7 +39,7 @@ public class transaksi extends JFrame {
                 {
                     try {
                         if (Integer.valueOf(txt1.getText()) > 3) {
-                            JOptionPane.showMessageDialog(null, "ID obat yang anda masukan salah salah");
+                            JOptionPane.showMessageDialog(null, "ID obat salah");
 
                         } else if (txt1.getText().isEmpty() || txt2.getText().isEmpty()
                                 || txt3.getText().isEmpty() || txt4.getText().isEmpty()){

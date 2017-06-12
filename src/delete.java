@@ -6,6 +6,10 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+/**
+ * Created by FAN-PC on 6/7/2017.
+ */
+
 public class delete extends JFrame {
     Connection con;
     Statement stat;
@@ -32,7 +36,7 @@ public class delete extends JFrame {
                     stat = con.createStatement();
                     stat.executeUpdate("DELETE FROM obat WHERE ID= '" + Integer.valueOf(search.getText()) + "'");
                     stat.close();
-                    JOptionPane.showMessageDialog(null,"Berhasil Menghapus Data Obat");
+                    JOptionPane.showMessageDialog(null,"Berhasil Menghapus Data");
 
                 } catch (Exception err)
                 {
