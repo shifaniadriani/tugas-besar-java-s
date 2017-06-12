@@ -49,7 +49,7 @@ public class login extends JFrame {
                 }
             }
         });
-        JButton button1 = new JButton("Sign Up");
+
 
         JLabel aa = new JLabel("Masukan username dan password Anda.");
         aa.setBounds(70, 20, 500, 50);
@@ -67,7 +67,7 @@ public class login extends JFrame {
         txt1.setBounds(160, 65, 150, 25);
         txt2.setBounds(160, 115, 150, 25);
         button.setBounds(70, 180, 100, 25);
-        button1.setBounds(200, 180, 100, 25);
+
 
         setVisible(true);
         setSize(400, 400);
@@ -79,7 +79,7 @@ public class login extends JFrame {
         add(txt1);
         add(txt2);
         add(button);
-        add(button1);
+
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }

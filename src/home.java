@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 public class home
 {
+    public home(){}
     public static void main(String[] args)
     {
         //  Membuat objek JFrame
