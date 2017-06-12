@@ -32,7 +32,7 @@ public class delete extends JFrame {
                     stat = con.createStatement();
                     stat.executeUpdate("DELETE FROM obat WHERE ID= '" + Integer.valueOf(search.getText()) + "'");
                     stat.close();
-                    JOptionPane.showMessageDialog(null,"Berhasil Menghapus Data");
+                    JOptionPane.showMessageDialog(null,"Berhasil Menghapus Data Obat");
 
                 } catch (Exception err)
                 {

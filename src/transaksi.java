@@ -35,7 +35,7 @@ public class transaksi extends JFrame {
                 {
                     try {
                         if (Integer.valueOf(txt1.getText()) > 3) {
-                            JOptionPane.showMessageDialog(null, "ID obat salah");
+                            JOptionPane.showMessageDialog(null, "ID obat yang anda masukan salah salah");
 
                         } else if (txt1.getText().isEmpty() || txt2.getText().isEmpty()
                                 || txt3.getText().isEmpty() || txt4.getText().isEmpty()){
